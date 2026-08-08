@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /?s=
+Disallow: /search/
+
+Sitemap: https://avukatgulcinkahraman.com/sitemap.xml

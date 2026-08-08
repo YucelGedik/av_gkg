@@ -1,0 +1,236 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "background": {
+      "backgroundImage": true,
+      "backgroundSize": true
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "color": {
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "night", "name": "Gece laciverti", "color": "#101820" },
+        { "slug": "ink", "name": "Mürekkep panel", "color": "#1C2A33" },
+        { "slug": "marmara", "name": "Marmara", "color": "#4F7C82" },
+        { "slug": "brass", "name": "Mat pirinç", "color": "#B89558" },
+        { "slug": "paper", "name": "Kâğıt", "color": "#F1EEE7" },
+        { "slug": "stone", "name": "Taş", "color": "#7D8588" },
+        { "slug": "white", "name": "Beyaz", "color": "#FFFFFF" }
+      ]
+    },
+    "custom": {
+      "layout": {
+        "gridColumns": 12,
+        "gutter": "clamp(1rem, 2vw, 1.75rem)",
+        "pagePadding": "clamp(1rem, 4vw, 3rem)"
+      },
+      "motion": {
+        "durationFast": "160ms",
+        "durationBase": "240ms",
+        "ease": "cubic-bezier(0.2, 0.8, 0.2, 1)"
+      },
+      "radius": {
+        "small": "0.25rem",
+        "medium": "0.5rem",
+        "pill": "999px"
+      }
+    },
+    "dimensions": {
+      "minHeight": true
+    },
+    "layout": {
+      "contentSize": "47.5rem",
+      "wideSize": "77.5rem"
+    },
+    "shadow": {
+      "defaultPresets": false,
+      "presets": [
+        {
+          "slug": "paper-lift",
+          "name": "Kâğıt yükseltisi",
+          "shadow": "0 1rem 3rem rgba(16, 24, 32, 0.12)"
+        }
+      ]
+    },
+    "spacing": {
+      "blockGap": true,
+      "customSpacingSize": false,
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        { "slug": "10", "name": "2XS", "size": "0.25rem" },
+        { "slug": "20", "name": "XS", "size": "0.5rem" },
+        { "slug": "30", "name": "S", "size": "0.75rem" },
+        { "slug": "40", "name": "M", "size": "1rem" },
+        { "slug": "50", "name": "L", "size": "clamp(1.25rem, 2vw, 1.75rem)" },
+        { "slug": "60", "name": "XL", "size": "clamp(2rem, 4vw, 3.5rem)" },
+        { "slug": "70", "name": "2XL", "size": "clamp(3rem, 7vw, 6rem)" },
+        { "slug": "80", "name": "3XL", "size": "clamp(4.5rem, 10vw, 8rem)" }
+      ],
+      "units": ["px", "rem", "em", "%", "vw", "vh"]
+    },
+    "typography": {
+      "customFontSize": false,
+      "defaultFontSizes": false,
+      "dropCap": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "slug": "display",
+          "name": "Newsreader",
+          "fontFamily": "\"Newsreader\", Georgia, \"Times New Roman\", serif"
+        },
+        {
+          "slug": "body",
+          "name": "Manrope",
+          "fontFamily": "\"Manrope\", \"Segoe UI\", Arial, sans-serif"
+        },
+        {
+          "slug": "mono",
+          "name": "IBM Plex Mono",
+          "fontFamily": "\"IBM Plex Mono\", Consolas, \"Liberation Mono\", monospace"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "xs", "name": "XS", "size": "0.75rem" },
+        { "slug": "small", "name": "Küçük", "size": "0.875rem" },
+        { "slug": "medium", "name": "Gövde", "size": "1rem" },
+        { "slug": "large", "name": "Büyük", "size": "1.25rem" },
+        { "slug": "x-large", "name": "Başlık 3", "size": "clamp(1.5rem, 2.5vw, 2rem)" },
+        { "slug": "xx-large", "name": "Başlık 2", "size": "clamp(2rem, 4vw, 3.5rem)" },
+        { "slug": "hero", "name": "Hero", "size": "clamp(2.75rem, 7vw, 5.75rem)" }
+      ],
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": true,
+      "lineHeight": true,
+      "textDecoration": true,
+      "textTransform": true
+    },
+    "useRootPaddingAwareAlignments": true
+  },
+  "styles": {
+    "color": {
+      "background": "#0f1317",
+      "text": "var:preset|color|paper"
+    },
+    "elements": {
+      "button": {
+        ":focus": {
+          "outline": {
+            "color": "var:preset|color|marmara",
+            "offset": "3px",
+            "style": "solid",
+            "width": "3px"
+          }
+        },
+        "border": {
+          "radius": "0.25rem"
+        },
+        "color": {
+          "background": "var:preset|color|brass",
+          "text": "var:preset|color|night"
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "0.75rem",
+            "left": "1.25rem",
+            "right": "1.25rem",
+            "top": "0.75rem"
+          }
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|body",
+          "fontSize": "0.875rem",
+          "fontWeight": "600",
+          "letterSpacing": "0.03em"
+        }
+      },
+      "caption": {
+        "color": { "text": "var:preset|color|stone" },
+        "typography": {
+          "fontFamily": "var:preset|font-family|body",
+          "fontSize": "0.875rem",
+          "lineHeight": "1.5"
+        }
+      },
+      "heading": {
+        "color": { "text": "var:preset|color|paper" },
+        "typography": {
+          "fontFamily": "var:preset|font-family|display",
+          "fontWeight": "600",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.08"
+        }
+      },
+      "link": {
+        "color": { "text": "var:preset|color|brass" },
+        "typography": {
+          "textDecoration": "underline"
+        },
+        ":hover": {
+          "color": { "text": "var:preset|color|paper" }
+        }
+      }
+    },
+    "spacing": {
+      "blockGap": "1.25rem",
+      "padding": {
+        "bottom": "0",
+        "left": "0",
+        "right": "0",
+        "top": "0"
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|body",
+      "fontSize": "var:preset|font-size|medium",
+      "fontWeight": "400",
+      "lineHeight": "1.7"
+    },
+    "blocks": {
+      "core/code": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|mono",
+          "fontSize": "var:preset|font-size|small"
+        }
+      },
+      "core/post-date": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|mono",
+          "fontSize": "var:preset|font-size|xs",
+          "letterSpacing": "0.04em"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "color": "var:preset|color|brass",
+          "style": "solid",
+          "width": "0 0 0 2px"
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|display",
+          "fontSize": "var:preset|font-size|x-large"
+        }
+      },
+      "core/separator": {
+        "color": {
+          "background": "var:preset|color|brass",
+          "text": "var:preset|color|brass"
+        }
+      }
+    }
+  }
+}
+

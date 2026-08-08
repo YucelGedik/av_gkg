@@ -1,0 +1,45 @@
+<!-- wp:template-part {"slug":"header","tagName":"div"} /-->
+
+<!-- wp:group {"tagName":"main","className":"prototype-home article-single"} -->
+<main id="main-content" class="prototype-home article-single">
+    <section class="sec article-hero">
+        <div class="wrap" style="max-width:880px;">
+            <nav class="article-breadcrumb" aria-label="Navigasyon" style="color:var(--mut);font-size:13px;margin-bottom:18px;">
+                <a href="/" style="color:var(--gold);">Ana Sayfa</a> &gt; <a href="/makaleler/" style="color:var(--gold);">Makaleler</a>
+            </nav>
+            <div class="article-meta" style="display:flex;align-items:center;gap:12px;color:var(--mut);font-size:13px;margin-bottom:14px;flex-wrap:wrap;">
+                <!-- wp:post-terms {"term":"category","className":"tag","style":{"elements":{"link":{"color":{"text":"var:preset|color|brass"}}}}} /-->
+                <span>•</span>
+                <!-- wp:post-date {"format":"j F Y"} /-->
+            </div>
+            <!-- wp:post-title {"level":1,"className":"article-hero-title"} /-->
+            <div class="article-author" style="display:flex;align-items:center;gap:14px;margin-top:24px;padding-top:20px;border-top:1px solid var(--line);">
+                <div class="author-avatar" style="width:44px;height:44px;border-radius:50%;background:var(--panel);border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;color:var(--gold);font-weight:600;font-size:15px;">GK</div>
+                <div class="author-info" style="display:flex;flex-direction:column;">
+                    <span class="author-name" style="color:#f3eee4;font-weight:600;font-size:15px;">Av. Gülçin Kahraman Gedik</span>
+                    <span class="author-title" style="color:var(--mut);font-size:12px;">İstanbul Barosu · Hukuk Bürosu Kurucusu</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec article-body" style="padding-top:20px;">
+        <div class="wrap" style="max-width:880px;">
+            <article class="article-main">
+                <!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+
+                <div class="author-bio-card" style="margin-top:50px;padding:30px;background:var(--panel);border:1px solid var(--line);border-radius:8px;display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
+                    <div class="bio-avatar" style="width:60px;height:60px;border-radius:50%;background:#0a0d10;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;color:var(--gold);font-weight:700;font-size:20px;">GK</div>
+                    <div class="bio-content" style="flex:1;">
+                        <h4 style="margin:0 0 6px 0;color:#f3eee4;font-size:18px;">Av. Gülçin Kahraman Gedik</h4>
+                        <p style="margin:0 0 14px 0;color:var(--mut);font-size:14px;line-height:1.6;">İstanbul Medeniyet Üniversitesi Hukuk Fakültesi onur mezunu. Kartal / İstanbul bürosunda müvekkillerine hak takibi ve danışmanlık hizmeti sunmaktadır.</p>
+                        <a href="https://wa.me/905386880573" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="display:inline-block;padding:10px 20px;font-size:12px;">DANIŞMANLIK İÇİN WHATSAPP İLE ULAŞIN</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"div"} /-->

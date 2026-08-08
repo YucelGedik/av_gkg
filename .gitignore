@@ -1,0 +1,17 @@
+# Büyük ve hassas yedekler
+*.tar.gz
+*.sql.gz
+backups/
+
+# Yerel WordPress çalışma çıktıları
+runtime/
+staging/
+wp-config.php
+.env
+.env.*
+!.env.example
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+

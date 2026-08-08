@@ -1,0 +1,167 @@
+/**
+ * Marmara Dosyası global foundations.
+ * Component and template rules belong in their dedicated stylesheets.
+ */
+
+:root {
+	--gk-grid-columns: var(--wp--custom--layout--grid-columns, 12);
+	--gk-grid-gutter: var(--wp--custom--layout--gutter, clamp(1rem, 2vw, 1.75rem));
+	--gk-page-padding: var(--wp--custom--layout--page-padding, clamp(1rem, 4vw, 3rem));
+	--gk-focus-color: var(--wp--preset--color--marmara, #4f7c82);
+	--gk-transition-duration: var(--wp--custom--motion--duration-base, 240ms);
+	--gk-transition-ease: var(--wp--custom--motion--ease, cubic-bezier(0.2, 0.8, 0.2, 1));
+}
+
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	background: var(--wp--preset--color--paper, #f1eee7);
+	color: var(--wp--preset--color--night, #101820);
+	font-family: var(--wp--preset--font-family--body, "Manrope", "Segoe UI", Arial, sans-serif);
+	font-synthesis: none;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+svg,
+video {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+	font: inherit;
+}
+
+a,
+button,
+input,
+select,
+textarea,
+summary,
+[tabindex]:not([tabindex="-1"]) {
+	transition-duration: var(--gk-transition-duration);
+	transition-property: color, background-color, border-color, box-shadow, opacity, transform;
+	transition-timing-function: var(--gk-transition-ease);
+}
+
+:where(a, button, input, select, textarea, summary, [tabindex]:not([tabindex="-1"])):focus-visible {
+	outline: 3px solid var(--gk-focus-color);
+	outline-offset: 3px;
+}
+
+:where(a, button, input, select, textarea, summary):focus:not(:focus-visible) {
+	outline: none;
+}
+
+::selection {
+	background: var(--wp--preset--color--brass, #b89558);
+	color: var(--wp--preset--color--night, #101820);
+}
+
+.wp-site-blocks {
+	min-height: 100vh;
+	padding-inline: var(--gk-page-padding);
+}
+
+.wp-site-blocks > .alignfull {
+	margin-inline: calc(var(--gk-page-padding) * -1);
+	width: auto;
+}
+
+.gk-grid {
+	display: grid;
+	grid-template-columns: repeat(var(--gk-grid-columns), minmax(0, 1fr));
+	gap: var(--gk-grid-gutter);
+}
+
+.gk-meta,
+.gk-file-label {
+	font-family: var(--wp--preset--font-family--mono, "IBM Plex Mono", Consolas, monospace);
+	font-size: var(--wp--preset--font-size--xs, 0.75rem);
+	font-weight: 500;
+	letter-spacing: 0.06em;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
+.screen-reader-text {
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.screen-reader-text:focus {
+	z-index: 100000;
+	top: 0.75rem;
+	left: 0.75rem;
+	width: auto;
+	height: auto;
+	padding: 0.75rem 1rem;
+	margin: 0;
+	overflow: visible;
+	clip: auto;
+	white-space: normal;
+	background: var(--wp--preset--color--paper, #f1eee7);
+	color: var(--wp--preset--color--night, #101820);
+	box-shadow: 0 0 0 3px var(--gk-focus-color);
+}
+
+@media (max-width: 47.99rem) {
+	:root {
+		--gk-grid-columns: 4;
+	}
+
+	.wp-site-blocks {
+		padding-inline: max(1rem, env(safe-area-inset-left));
+	}
+
+	.wp-site-blocks > .alignfull {
+		margin-inline: calc(max(1rem, env(safe-area-inset-left)) * -1);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		scroll-behavior: auto !important;
+		transition-duration: 0.01ms !important;
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+	}
+}
+
+@media (forced-colors: active) {
+	:where(a, button, input, select, textarea, summary, [tabindex]:not([tabindex="-1"])):focus-visible {
+		outline-color: Highlight;
+	}
+}
