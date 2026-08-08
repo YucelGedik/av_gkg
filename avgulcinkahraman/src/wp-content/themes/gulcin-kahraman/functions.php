@@ -191,40 +191,11 @@ function gulcin_kahraman_document_title( $title ) {
 	if ( isset( $post->post_name ) && array_key_exists( $post->post_name, $slug_map ) ) {
 		$title['title']   = $slug_map[ $post->post_name ];
 		$title['tagline'] = '';
-	} elseif ( isset( $title['title'] ) && ( strpos( $title['title'], 'Ä' ) !== false || strpos( $title['title'], 'Ã' ) !== false ) ) {
-		$title['title'] = utf8_decode( $title['title'] );
 	}
 
 	return $title;
 }
 add_filter( 'document_title_parts', 'gulcin_kahraman_document_title' );
-
-/**
- * Automatically clean double-encoded UTF-8 titles.
- *
- * @param string $title Post title.
- * @return string
- */
-function gulcin_kahraman_clean_the_title( $title ) {
-	if ( is_string( $title ) ) {
-		$replacements = array(
-			'Ä°' => 'İ',
-			'Ä±' => 'ı',
-			'Ãœ' => 'Ü',
-			'Ã¼' => 'ü',
-			'Ã‡' => 'Ç',
-			'Ã§' => 'ç',
-			'Åž' => 'Ş',
-			'ÅŸ' => 'ş',
-			'Ã–' => 'Ö',
-			'Ã¶' => 'ö',
-			'Ã¢' => 'â',
-		);
-		$title = strtr( $title, $replacements );
-	}
-	return $title;
-}
-add_filter( 'the_title', 'gulcin_kahraman_clean_the_title' );
 
 /**
  * Per-page SEO meta descriptions.

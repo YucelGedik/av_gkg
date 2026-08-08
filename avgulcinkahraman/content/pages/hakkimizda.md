@@ -200,24 +200,10 @@
   </div>
   <div class="about-hero-text">
     <h2 class="about-hero-name">Av. Gülçin Kahraman Gedik</h2>
-    <p class="about-hero-title">Kanser Hastası Hakları &amp; SGK Hukuku Uzmanı</p>
+    <p class="about-hero-title">Kanser Hastası Hakları &amp; Sağlık Hukuku Uzmanı</p>
     <div class="about-hero-divider"></div>
     <p class="about-hero-bio">2021 yılında, İstanbul Medeniyet Üniversitesi Hukuk Fakültesinden <strong style="color:#f3eee4;">onur öğrencisi</strong> olarak mezun olmuş; akabinde İstanbul Barosunda staj eğitimini tamamlayarak mesleğe başlamıştır.</p>
     <p class="about-hero-bio">Halen İstanbul ilinde, Avukat Gülçin Kahraman Hukuk Bürosu nezdinde serbest avukat olarak faaliyet göstermekte olup, avukatlık ortaklıkları aracılığıyla Türkiye'nin birçok ilinde kanser hastalarına <strong style="color:#f3eee4;">yaşamsal ilaç erişimi ve SGK davaları</strong> konusunda hukuki hizmet vermektedir.</p>
-    <div class="about-stats-row">
-      <div class="about-stat-card">
-        <div class="about-stat-number">8+</div>
-        <div class="about-stat-label">Kazanılan Mahkeme Kararı</div>
-      </div>
-      <div class="about-stat-card">
-        <div class="about-stat-number">5+</div>
-        <div class="about-stat-label">Farklı İlaç / Endikasyon</div>
-      </div>
-      <div class="about-stat-card">
-        <div class="about-stat-number">%100</div>
-        <div class="about-stat-label">Müvekkil Odaklı Hizmet</div>
-      </div>
-    </div>
   </div>
 </div>
 

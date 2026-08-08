@@ -1,6 +1,9 @@
 # Büyük ve hassas yedekler
 *.tar.gz
 *.sql.gz
+*.sql
+*.sqlite
+*.sqlite.bak-*
 backups/
 
 # Yerel WordPress çalışma çıktıları

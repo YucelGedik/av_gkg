@@ -6,7 +6,7 @@
 <p style="font-size:1.15rem">Kanser, dünya genelinde en yaygın sağlık sorunlarından biri olarak karşımıza çıkmakta ve her yıl milyonlarca insanı etkilemektedir. Son yıllarda, kanser hastalığının tedavisinde kemoterapi ve radyoterapi haricinde, en etkili tedavi yöntemleri olan <strong>immünoterapi ve akıllı ilaç tedavileri</strong> kullanılmaktadır.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:pattern {"slug":"gulcin-kahraman/callout"} /-->
+<!-- wp:pattern {"slug":"gulcin-kahraman/emsal-yonlendirme"} /-->
 
 <!-- wp:heading {"level":2} -->
 <h2>İmmünoterapi ve Akıllı İlaç Tedavileri</h2>
