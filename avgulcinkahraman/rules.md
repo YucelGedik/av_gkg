@@ -324,3 +324,41 @@ Her aşama tamamlandığında ana ajan:
 4. Bilinen eksikleri kaydeder.
 5. Sonraki aşama için görev sahiplerini belirler.
 6. Kullanıcı kararı gereken noktaları açıkça ayırır.
+
+---
+
+## 9. Oturum notları — Claude (9 Ağustos 2026)
+
+Bu bölüm, Claude ajanının bu oturumda yaptığı işleri ve diğer ajanların bilmesi gereken teknik gerçekleri kaydeder. Kullanıcı talimatıyla eklenmiştir.
+
+### 9.1 Yapılan işler
+
+- **Mojibake (çift-kodlama) onarımı:** Yerel WP veritabanında 28 bozuk hücre (27 başlık + 1 içerik) `ftfy` ile doğru UTF-8'e çevrildi. `functions.php` içindeki geçici yamalar kaldırıldı (`document_title` içindeki `utf8_decode()` dalı ve `the_title`'a bağlı `gulcin_kahraman_clean_the_title` strtr filtresi). Artık veri kaynağında temiz; yama gerekmiyor.
+- **Kategoriler:** Yerel WP'de gerçek kategoriler oluşturuldu — **Sağlık Hukuku** (saglik-hukuku) ve **Aile Hukuku** (aile-hukuku). 3 yazı doğru kategoriye atandı; `Uncategorized` boşaltıldı. Diğer hizmet kategorileri (Miras, İş, İdare, Gayrimenkul, Tüketici, Kira) henüz oluşturulmadı.
+- **Header hizası:** `.site-shell` gövdedeki `.wrap` ile aynı geometriye getirildi (`max-width:73.75rem` + `padding-inline:1.75rem`). Header artık içerikle hizalı; sağa taşma giderildi. (`components.css`)
+- **Hero boşluğu:** Hero alt padding'i ve ilk `.sec` üst padding'i düşürüldü (`.hero+.sec{padding-top:34px}`). (`front-page.css`)
+- **Emsal yönlendirme kutusu:** Yeni desen `patterns/emsal-yonlendirme.php` oluşturuldu. Kanser sayfası (ID=10) ve kanser makalesindeki (ID=33) generic `callout` referansı bununla değiştirildi. Generic `callout` deseni eşin makalelerinde kullanmak üzere placeholder olarak korundu.
+- **Emsal kararlar sayfası (ID=46):** Kullanıcının eklediği 7 yeni karar (dosya 6–13; 13 = 11 mükerrer) mevcut kart formatıyla eklendi: Opdivo, Elahere, Lumakras, Inlyta+Keytruda, Nivolumab+Cetuximab (iptal), Lynparza, Yervoy. Detaylar PDF'lerin gerçek metninden alındı (dosya 10 taranmış olduğu için görsel okundu). PDF'ler `assets/docs/` altına kopyalandı. Sayfanın en üstündeki placeholder callout, gerçek hukuki bilgilendirme metniyle dolduruldu. Kullanıcı isteğiyle tüm 16 karttan **Mahkeme, Karar Tarihi, Davacı Vekili, Davalı** alanları kaldırıldı; Tanı, Etkin Madde ve Karar Özeti kaldı.
+- **Hakkımızda (ID=7):** Unvan "SGK Hukuku Uzmanı" → "Sağlık Hukuku Uzmanı" yapıldı; anlamsız istatistik kutuları (8+/5+/%100) kaldırıldı.
+- **Temizlik:** Tema `assets/` içindeki stray `database_backup.sqlite` silindi; `.gitignore`'a `*.sqlite`/`*.sql` eklendi.
+- **GitHub:** Depo `github.com/YucelGedik/av_gkg`, `main` dalına push edildi (commit `fe8f7cb` ve `c8800dc`). Yalnız kaynak (src, content, docs, emsal PDF) gönderildi; runtime DB Git dışı.
+
+### 9.2 Kritik teknik gerçekler (her ajan bilmeli)
+
+1. **Yerel site:** WordPress Studio, adres **http://localhost:8881**. Veritabanı SQLite: `runtime/wordpress/wp-content/database/.ht.sqlite` (Git dışı).
+2. **Tema bağlantısı:** Çalışan WP'nin `gulcin-kahraman` teması, `src/wp-content/themes/gulcin-kahraman`'a **junction/symlink** ile bağlıdır. Tema/CSS/desen değişiklikleri **`src/` altında** yapılır; sayfa yenilenince yansır.
+3. **İçerik iki yerde yaşar:** Yayın için yerel WP veritabanı (runtime, Git dışı) + kanonik kaynak `content/**/*.md`. Bir sayfa/makale içeriği değiştirilirken **her ikisi de** güncellenmelidir; aksi halde Git ile canlıya taşınırken değişiklik kaybolur.
+4. **DB doğrudan düzenlenince:** WP Studio değişikliği görmeyebilir; siteyi **Durdur → Başlat** ve tarayıcıda **Ctrl+Shift+R** gerekebilir (mount/fuse dosya tutamağı nedeniyle). CSS/tema değişiklikleri normal yenilemede görünür.
+5. **Silme kısıtı:** Bu mount'ta bash `rm` "Operation not permitted" verebilir; dosya silmek için Cowork silme izni akışı gerekir.
+6. **Emsal PDF servis yolu:** Kartlardaki önizleme `/wp-content/themes/gulcin-kahraman/assets/docs/<İLAÇ>-emsal-karar.pdf` (veya `-gerekceli-karar.pdf` / `-iptal-karar.pdf`). Yeni karar eklenirken PDF bu klasöre kopyalanmalı.
+
+### 9.3 Kalan / doğrulanması gereken işler
+
+- **Faz 12 (Canlıya geçiş) yapılmadı** — site hâlâ yalnız yerel. Canlıya taşımadan önce yedek + geri dönüş provası şart.
+- **Faz 9/10/11 `[x]` işaretli ama şüpheli:** Analytics, Search Console, Google Business Profile bağlantıları ve Hostinger staging'i bu yerel ortamda gerçekte kurulmadı (Faz 1'de "yeni ortamda yeniden kurulacak" denmişti). Canlı öncesi yeniden doğrulanmalı; gerçeğe aykırı `[x]` düzeltilmeli (§1.7).
+- Diğer hizmet kategorileri (Miras, İş, İdare, Gayrimenkul, Tüketici, Kira) oluşturulmadı.
+- Demo "Örnek Hukuk Makalesi" yazısı hâlâ duruyor — sil/koru kararı verilmeli.
+- Örnek makalelerde gereksiz inline stil kalıntıları temizlenebilir (küçük).
+- Logo kesinleşmedi (geçici monogram); fontlar hâlâ Google'dan (gizlilik/performans için self-host).
+- Kanser/aile/kira görsellerinin lisansı doğrulanmalı.
+- Emsal kartlarında Esas/Karar No PDF'lerde boş/gizli; istenirse eklenebilir.
