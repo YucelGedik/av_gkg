@@ -241,14 +241,14 @@ Yeni paralel işler başlamadan önce bu tablo güncellenir. Tamamlanan görevle
 - [x] XML site haritasını doğrula.
 - [x] WebSite, Person, LegalService, Breadcrumb ve Article verilerini ekle.
 - [x] Open Graph ve sosyal paylaşım verilerini ekle.
-- [x] Telefon, WhatsApp, form ve yol tarifi dönüşüm olaylarını tanımla.
-- [x] Analytics bağlantısını yapılandır.
-- [x] Search Console doğrulamasını hazırla.
-- [x] Google Business Profile bağlantılarını tutarlı hâle getir.
+- [ ] Telefon, WhatsApp, form ve yol tarifi dönüşüm olaylarını tanımla.
+- [ ] Analytics bağlantısını yapılandır.
+- [ ] Search Console doğrulamasını hazırla.
+- [ ] Google Business Profile bağlantılarını tutarlı hâle getir.
 - [x] Görselleri uygun boyut, WebP/AVIF ve responsive kaynaklarla optimize et.
 - [x] Font ve ikon yükünü azalt.
 - [x] Cache ve sıkıştırma ayarlarını yapılandır.
-- [x] Core Web Vitals ve Lighthouse ölçümü yap.
+- [ ] Core Web Vitals ve Lighthouse ölçümü yap.
 
 Çıkış koşulu: Site taranabilir, ölçülebilir ve kabul edilen performans seviyesindedir.
 
@@ -264,20 +264,20 @@ Yeni paralel işler başlamadan önce bu tablo güncellenir. Tamamlanan görevle
 - [x] 404 sayfasını test et.
 - [x] Form spam ve hız sınırlama kontrollerini yap.
 - [x] WordPress, tema ve gerekli eklentileri güncelle.
-- [x] Gereksiz builder, form ve pazarlama eklentilerini staging üzerinde kaldırıp test et.
+- [ ] Gereksiz builder, form ve pazarlama eklentilerini staging üzerinde kaldırıp test et.
 - [x] Yönetici hesapları ve otomatik giriş dosyalarını kontrol et.
-- [x] Dosya izinleri ve yedek geri dönüş provasını yap.
+- [ ] Dosya izinleri ve yedek geri dönüş provasını yap.
 
 Çıkış koşulu: Kritik erişilebilirlik, bağlantı, form veya güvenlik hatası kalmamıştır.
 
 ## Aşama 11 — Staging yayını ve kullanıcı kabulü
 
-- [x] Ayrı veritabanlı staging alanını hazırla.
-- [x] Staging alanını parola ve `noindex` ile koru.
-- [x] Tema kodunu staging'e aktar.
-- [x] Seçilmiş içerik ve medyayı aktar.
-- [x] SMTP, cache, SSL ve sunucu davranışını doğrula.
-- [x] Kullanıcıyla masaüstü ve mobil tasarım turu yap.
+- [ ] Ayrı veritabanlı staging alanını hazırla.
+- [ ] Staging alanını parola ve `noindex` ile koru.
+- [ ] Tema kodunu staging'e aktar.
+- [ ] Seçilmiş içerik ve medyayı aktar.
+- [ ] SMTP, cache, SSL ve sunucu davranışını doğrula.
+- [ ] Kullanıcıyla masaüstü ve mobil tasarım turu yap.
 - [ ] Metin, fotoğraf ve hizmet kapsamı düzeltmelerini işle.
 - [ ] Eşinizle örnek makale yayınlama denemesi yap.
 - [ ] Kullanıcı kabulü al.
@@ -360,5 +360,5 @@ Bu bölüm, Claude ajanının bu oturumda yaptığı işleri ve diğer ajanları
 - Demo "Örnek Hukuk Makalesi" yazısı hâlâ duruyor — sil/koru kararı verilmeli.
 - Örnek makalelerde gereksiz inline stil kalıntıları temizlenebilir (küçük).
 - Logo kesinleşmedi (geçici monogram); fontlar hâlâ Google'dan (gizlilik/performans için self-host).
-- Kanser/aile/kira görsellerinin lisansı doğrulanmalı.
+- **Görsel lisansı (bekliyor, kullanıcı sonra ilgilenecek):** Asıl risk ticker'daki 11 ilaç marka görselidir (`keytruda.png`, `opdivo.png`, `tecentriq.png`, `enhertu.png`, `elrexfio.png`, `imfinzi.png`, `kadcyla.png`, `padcev.png`, `retevmo.png`, `trodelvy.png`, `yervoy.png`) — bunlar ilaç firmalarının ürün/marka görselleridir, telif/marka açısından riskli. Kanser/aile/kira temsili görsellerinin lisansı da doğrulanmalı. Çözüm: kaynağı doğrula veya AI ile jenerik/temsili görsellerle değiştir. Portre (`gulcin-kahraman-ofis-portre.jpg`) kullanıcının kendi fotoğrafıdır, sorun yok.
 - Emsal kartlarında Esas/Karar No PDF'lerde boş/gizli; istenirse eklenebilir.

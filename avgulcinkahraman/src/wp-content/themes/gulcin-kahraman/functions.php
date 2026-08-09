@@ -31,9 +31,9 @@ function gulcin_kahraman_asset_version( $relative_path ) {
 function gulcin_kahraman_enqueue_assets() {
 	wp_enqueue_style(
 		'gulcin-kahraman-fonts',
-		'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap',
+		get_theme_file_uri( 'assets/fonts/fonts.css' ),
 		array(),
-		null
+		gulcin_kahraman_asset_version( 'assets/fonts/fonts.css' )
 	);
 
 	wp_enqueue_style(
@@ -119,9 +119,9 @@ add_filter( 'the_content', 'gulcin_kahraman_content_lazy_images', 20 );
 function gulcin_kahraman_editor_assets() {
 	wp_enqueue_style(
 		'gulcin-kahraman-editor-fonts',
-		'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap',
+		get_theme_file_uri( 'assets/fonts/fonts.css' ),
 		array(),
-		null
+		gulcin_kahraman_asset_version( 'assets/fonts/fonts.css' )
 	);
 
 	wp_enqueue_style(
@@ -155,12 +155,7 @@ function gulcin_kahraman_resource_hints( $urls, $relation_type ) {
 		return $urls;
 	}
 
-	$urls[] = 'https://fonts.googleapis.com';
-	$urls[] = array(
-		'href'        => 'https://fonts.gstatic.com',
-		'crossorigin' => 'anonymous',
-	);
-
+	// Fonts are self-hosted (assets/fonts/); no external preconnect needed.
 	return $urls;
 }
 add_filter( 'wp_resource_hints', 'gulcin_kahraman_resource_hints', 10, 2 );

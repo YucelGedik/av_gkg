@@ -30,7 +30,7 @@
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
         <a href="/wp-content/themes/gulcin-kahraman/assets/docs/ELREXFIO-gerekceli-karar.pdf" class="js-pdf-preview" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--gold);color:#101820;font-weight:600;font-size:13.5px;border-radius:6px;text-decoration:none;">👁️ Gerekçeli Kararı Önizle (PDF)</a>
-        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Elrexfio%20gerek%C3%A7eli%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%F9mak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
+        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Elrexfio%20gerek%C3%A7eli%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%C5%9Fmak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
     </div>
 </div>
 <!-- /wp:group -->
@@ -48,7 +48,7 @@
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
         <a href="/wp-content/themes/gulcin-kahraman/assets/docs/ELREXFIO-emsal-karar.pdf" class="js-pdf-preview" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--gold);color:#101820;font-weight:600;font-size:13.5px;border-radius:6px;text-decoration:none;">👁️ İhtiyati Tedbir Kararını Önizle (PDF)</a>
-        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Elrexfio%20tedbir%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%F9mak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
+        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Elrexfio%20tedbir%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%C5%9Fmak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
     </div>
 </div>
 <!-- /wp:group -->
@@ -66,7 +66,7 @@
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
         <a href="/wp-content/themes/gulcin-kahraman/assets/docs/RETEVMO-gerekceli-karar.pdf" class="js-pdf-preview" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--gold);color:#101820;font-weight:600;font-size:13.5px;border-radius:6px;text-decoration:none;">👁️ Gerekçeli Kararı Önizle (PDF)</a>
-        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Retevmo%20gerek%C3%A7eli%20kazan%C4%B1lan%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%F9mak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
+        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Retevmo%20gerek%C3%A7eli%20kazan%C4%B1lan%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%C5%9Fmak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
     </div>
 </div>
 <!-- /wp:group -->
@@ -84,7 +84,7 @@
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
         <a href="/wp-content/themes/gulcin-kahraman/assets/docs/RETEVMO-emsal-karar.pdf" class="js-pdf-preview" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--gold);color:#101820;font-weight:600;font-size:13.5px;border-radius:6px;text-decoration:none;">👁️ İhtiyati Tedbir Kararını Önizle (PDF)</a>
-        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Retevmo%20tedbir%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%F9mak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
+        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Retevmo%20tedbir%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%C5%9Fmak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
     </div>
 </div>
 <!-- /wp:group -->
@@ -102,7 +102,7 @@
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
         <a href="/wp-content/themes/gulcin-kahraman/assets/docs/TECENTRIQ-gerekceli-karar.pdf" class="js-pdf-preview" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--gold);color:#101820;font-weight:600;font-size:13.5px;border-radius:6px;text-decoration:none;">👁️ Gerekçeli Kararı Önizle (PDF)</a>
-        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Tecentriq%20gerek%C3%A7eli%20karar%C4%B1n%C4%B1z%C4%B1%20ve%20bedel%20iade%20ilam%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%F9mak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
+        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Tecentriq%20gerek%C3%A7eli%20karar%C4%B1n%C4%B1z%C4%B1%20ve%20bedel%20iade%20ilam%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%C5%9Fmak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
     </div>
 </div>
 <!-- /wp:group -->
@@ -120,7 +120,7 @@
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
         <a href="/wp-content/themes/gulcin-kahraman/assets/docs/TECENTRIQ-emsal-karar.pdf" class="js-pdf-preview" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--gold);color:#101820;font-weight:600;font-size:13.5px;border-radius:6px;text-decoration:none;">👁️ İhtiyati Tedbir Kararını Önizle (PDF)</a>
-        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Tecentriq%20tedbir%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%F9mak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
+        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Tecentriq%20tedbir%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20dan%C4%B1%C5%9Fmak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
     </div>
 </div>
 <!-- /wp:group -->
@@ -137,7 +137,7 @@
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
         <a href="/wp-content/themes/gulcin-kahraman/assets/docs/TRODELVY-emsal-karar.pdf" class="js-pdf-preview" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--gold);color:#101820;font-weight:600;font-size:13.5px;border-radius:6px;text-decoration:none;">👁️ Mahkeme Kararını Önizle (PDF)</a>
-        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Trodelvy%20emsal%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20benim%20davam%20i%C3%A7in%20de%20dan%C4%B1%F9mak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
+        <a href="https://wa.me/905386880573?text=Merhaba%20G%C3%BCl%C3%A7in%20Han%C4%B1m%2C%20Trodelvy%20emsal%20karar%C4%B1n%C4%B1z%C4%B1%20inceledim%2C%20benim%20davam%20i%C3%A7in%20de%20dan%C4%B1%C5%9Fmak%20istiyorum." target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.08);color:#f1eee7;font-weight:500;font-size:13.5px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;text-decoration:none;">💬 Bu Kararla İlgili Danışın</a>
     </div>
 </div>
 <!-- /wp:group -->

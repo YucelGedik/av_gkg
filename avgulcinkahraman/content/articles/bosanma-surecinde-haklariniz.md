@@ -1,9 +1,5 @@
-<!-- wp:heading {"level":1} -->
-<h1>Boşanma Sürecinde Haklarınız ve Yasal Hak Kayıplarını Önleme Rehberi</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.15rem"}}} -->
-<p style="font-size:1.15rem">Boşanma süreci hem duygusal hem de hukuki açıdan karmaşık bir dönemdir. Anlaşmalı ve çekişmeli boşanma davalarında velayet, nafaka, tazminat ve mal paylaşımı gibi kritik haklarınızı korumak için doğru hukuki adımları atmak büyük önem taşır.</p>
+<!-- wp:paragraph -->
+<p>Boşanma süreci hem duygusal hem de hukuki açıdan karmaşık bir dönemdir. Anlaşmalı ve çekişmeli boşanma davalarında velayet, nafaka, tazminat ve mal paylaşımı gibi kritik haklarınızı korumak için doğru hukuki adımları atmak büyük önem taşır.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:pattern {"slug":"gulcin-kahraman/callout"} /-->

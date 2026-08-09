@@ -1,9 +1,5 @@
-<!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(30px,3.5vw,40px)"}}} -->
-<h1 class="wp-block-heading" style="font-size:clamp(30px,3.5vw,40px);color:#f3eee4;line-height:1.25;margin-bottom:24px;">Kanser İlaçlarının Ücretsiz Temini İçin Hukuki Yollar</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.15rem"}}} -->
-<p style="font-size:1.15rem">Kanser, dünya genelinde en yaygın sağlık sorunlarından biri olarak karşımıza çıkmakta ve her yıl milyonlarca insanı etkilemektedir. Son yıllarda, kanser hastalığının tedavisinde kemoterapi ve radyoterapi haricinde, en etkili tedavi yöntemleri olan <strong>immünoterapi ve akıllı ilaç tedavileri</strong> kullanılmaktadır.</p>
+<!-- wp:paragraph -->
+<p>Kanser, dünya genelinde en yaygın sağlık sorunlarından biri olarak karşımıza çıkmakta ve her yıl milyonlarca insanı etkilemektedir. Son yıllarda, kanser hastalığının tedavisinde kemoterapi ve radyoterapi haricinde, en etkili tedavi yöntemleri olan <strong>immünoterapi ve akıllı ilaç tedavileri</strong> kullanılmaktadır.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:pattern {"slug":"gulcin-kahraman/emsal-yonlendirme"} /-->
